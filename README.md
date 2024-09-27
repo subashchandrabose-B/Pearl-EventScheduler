@@ -19,6 +19,8 @@ Mark a New Event: You can click on the "Mark Event" button to add a new event fo
 
 DAILY-BASED-SCHEDULE:
 
+![Screenshot 2024-09-27 232207](https://github.com/user-attachments/assets/be4f98f5-881a-4422-9211-94018948d65e)
+![Screenshot 2024-09-27 232241](https://github.com/user-attachments/assets/0d705dd3-3d2a-4537-a50c-8c03e35ea59f)
 
 
 Features
@@ -32,3 +34,37 @@ Enter Event Name: Input the name of the event you want to schedule.
 Define the Start and End Dates: Specify when the event should begin and when it should end.
 Set Repeat Frequency: Choose how frequently the event should repeat (e.g., every 1 day, every 2 weeks).
 Calculate Recurrences: Once all fields are filled, click the Calculate Recurrences button to generate the recurring events.
+
+
+WEEKLY-BASED-SCHEDULING:
+
+![Screenshot 2024-09-27 232225](https://github.com/user-attachments/assets/fa29769a-ac4f-4f94-98e1-1016a44210c4)
+
+Features
+Weekly Recurrence Options: Schedule an event to repeat every week on a specific day (e.g., every Monday).
+Customizable Event Duration: Users can set both the start and end dates for the event.
+Day of the Week Selection: Choose a specific day of the week for the event to repeat (e.g., Wednesday, Friday).
+Recurrence Calculation: Automatically generates the recurring event based on the input for the start date, end date, and selected day of the week.
+How to Use
+Select Weekly Recurrence: Click the Weekly button to open the Weekly Recurrence Scheduler.
+Enter Event Name: Provide a name for the event you want to schedule.
+Set Start and End Dates: Specify when the event should start and end.
+Choose Day of the Week: Select the day of the week when the event should occur (e.g., Monday).
+Calculate Recurrences: Click the Calculate Recurrences button to generate the schedule for the recurring event.
+
+YEARLY-BASED-SCHEDULING:
+
+![Screenshot 2024-09-27 232241](https://github.com/user-attachments/assets/0d705dd3-3d2a-4537-a50c-8c03e35ea59f)
+
+
+Features
+Monthly Recurrence Options: Users can schedule events to repeat on specific weekdays of the month, such as the Second Tuesday or Third Friday.
+Customizable Event Duration: Define both the start and end dates for the event, allowing you to specify how long the recurrence should last.
+Advanced Day Selection: Choose the week number and the specific day of the week (e.g., Second Tuesday, Fourth Thursday).
+Recurrence Calculation: Automatically generates all occurrences based on user input for start and end dates, as well as the selected monthly recurrence (e.g., every second Wednesday).
+How to Use
+Select Monthly Recurrence: Click the Monthly button to open the Monthly Recurrence Scheduler.
+Enter Event Name: Provide a name for the event you wish to schedule.
+Set Start and End Dates: Choose the dates to define the event duration.
+Select the Day: From the dropdown, pick a specific combination of week and day (e.g., Second Tuesday or Fourth Friday).
+Calculate Recurrences: After entering all the information, click the Calculate Recurrences button to generate all future occurrences of the event.
