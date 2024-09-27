@@ -115,20 +115,6 @@ const MarkeventPage = () => {
         </div>
         <button className="btn-submit" type="submit">Calculate Recurrences</button>
       </form>
-
-      {/* Display calculated recurrence events */}
-      {Object.keys(recurrenceEvents).length > 0 && (
-        <div className="recurrence-results">
-          <h4>Recurrence Events:</h4>
-          <ul>
-            {Object.entries(recurrenceEvents).map(([date, event], index) => (
-              <li key={index}>
-                <strong>{date}:</strong> {event}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
