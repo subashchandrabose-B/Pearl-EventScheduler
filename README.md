@@ -20,7 +20,6 @@ Mark a New Event: You can click on the "Mark Event" button to add a new event fo
 DAILY-BASED-SCHEDULE:
 
 ![Screenshot 2024-09-27 232207](https://github.com/user-attachments/assets/be4f98f5-881a-4422-9211-94018948d65e)
-![Screenshot 2024-09-27 232241](https://github.com/user-attachments/assets/0d705dd3-3d2a-4537-a50c-8c03e35ea59f)
 
 
 Features
@@ -68,3 +67,19 @@ Enter Event Name: Provide a name for the event you wish to schedule.
 Set Start and End Dates: Choose the dates to define the event duration.
 Select the Day: From the dropdown, pick a specific combination of week and day (e.g., Second Tuesday or Fourth Friday).
 Calculate Recurrences: After entering all the information, click the Calculate Recurrences button to generate all future occurrences of the event.
+
+
+
+-----------------------------------------------------------------------------COMMANDS TO DEPLOY IN YOUR LOCALHOST---------------------------------------------------------------------------------------------------
+
+
+How to Clone, Deploy, and Use
+1. Clone the Repository
+First, you need to clone the repository to your local machine. Run the following command in your terminal:
+git clone https://github.com/your-username/Pearl-EventScheduler.git
+2. Navigate to the Project Directory
+cd Pearl-EventScheduler
+3. Install Dependencies
+npm install
+4. Run the Application
+npm start
