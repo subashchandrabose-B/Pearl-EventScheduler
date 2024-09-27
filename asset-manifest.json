@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Pearl-EventScheduler/static/css/main.0c67b2d4.css",
-    "main.js": "/Pearl-EventScheduler/static/js/main.0abea90f.js",
+    "main.js": "/Pearl-EventScheduler/static/js/main.6b7f9480.js",
     "index.html": "/Pearl-EventScheduler/index.html",
     "main.0c67b2d4.css.map": "/Pearl-EventScheduler/static/css/main.0c67b2d4.css.map",
-    "main.0abea90f.js.map": "/Pearl-EventScheduler/static/js/main.0abea90f.js.map"
+    "main.6b7f9480.js.map": "/Pearl-EventScheduler/static/js/main.6b7f9480.js.map"
   },
   "entrypoints": [
     "static/css/main.0c67b2d4.css",
-    "static/js/main.0abea90f.js"
+    "static/js/main.6b7f9480.js"
   ]
 }
