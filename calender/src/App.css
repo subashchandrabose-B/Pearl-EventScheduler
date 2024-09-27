@@ -1,0 +1,614 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  color:white;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.calendar-section, .event-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.calendar-header h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  color:rgb(63, 63, 247);
+}
+
+.calendar-header p {
+  color:#333;
+}
+
+.calendar-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar {
+  margin-bottom: 20px;
+}
+
+.dashboard-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content:space-around;
+  background-color: #333;
+}
+
+button {
+  padding: 8px 8px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2d9e2d;
+  color:black;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Example styles for the event section */
+.event-section {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); /* Gradient background */
+  border: 2px solid #ffa500; /* Orange border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px; /* More padding for spacious look */
+  width: 100%; /* Full width of the right container */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px; /* Ensures height even when empty */
+}
+
+.event-section h1 {
+  color: white;
+  background-color: #ffa500; /* Orange background */
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-section h2 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.event-section p {
+  color: #555;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+  color: #ffa500;
+  margin-bottom: 20px;
+}
+
+.empty-message {
+  font-size: 1.3rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Add some breathing space between text and icon */
+.event-section .placeholder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Take full height */
+}
+
+
+/* Styles for the event section */
+.event-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-button {
+  background-color:#FFA500;
+  text-align: center;
+}
+
+.event-button:hover {
+  background-color:#FFA500;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .dashboard-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calendar-section, .event-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 2rem;
+  }
+
+  .calendar-header h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .calendar-header h2 {
+    font-size: 1.25rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .calendar-section, .event-section {
+    padding: 15px;
+  }
+}
+
+/*Daily style wit css*/
+
+body {
+  font-family: 'Arial',sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 510px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close-link:hover {
+  color: #ffa500;  /* Orange hover color */
+}
+
+h3 {
+  text-align: center;
+  color: #ffa500;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #4a4a4a;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+select {
+  margin-top: 10px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #ffa500;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #e69500;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select,
+  .btn-submit {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/*Weekly page style*/
+
+.recurrence-scheduler-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.recurrence-scheduler {
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  max-width: 550px;
+  width: 100%;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff9900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: white;
+}
+
+.input-field::placeholder {
+  color: #aaa;
+}
+
+.close-linkk{
+  color: white;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.submit-button {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #e68a00;
+}
+
+.subheader {
+  font-size: 16px;
+  color: #ff9900;
+  margin-top: 20px;
+}
+
+.dates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.date-item {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+@media (max-width: 480px){
+  .recurrence-scheduler{
+    max-width: 400px;
+  }
+}
+
+/*Monthly scope css*/
+
+/* Container for the scheduler */
+.recurrence-scheduler-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Light background */
+  padding: 20px;
+}
+
+/* The main scheduler box */
+.recurrence-scheduler {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%; /* Full width by default */
+  max-width: 550px; /* Maximum width for larger screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Header of the scheduler */
+.header {
+  font-size: 1.5rem; /* Responsive font size */
+  margin-bottom: 20px;
+  color: #f39c12; /* Bright orange for header */
+  text-align: center;
+  position: relative;
+}
+
+/* Close button */
+.close-linkk {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Form labels */
+.label {
+  font-size: 1rem; /* Responsive font size */
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Dropdown field */
+select.input-field {
+  appearance: none;
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f39c12; /* Bright orange button */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+/* Subheader for recurrence dates */
+.subheader {
+  font-size: 1.2rem; /* Responsive font size */
+  margin-top: 20px;
+  color: #f39c12; /* Match the header color */
+}
+
+/* List of dates */
+.dates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.date-item {
+  background-color: #444;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Responsive Design - Media Queries */
+@media (max-width: 768px) {
+  .recurrence-scheduler {
+    padding: 15px;
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .header {
+    font-size: 1.3rem; /* Smaller font size on small screens */
+  }
+
+  .submit-button {
+    font-size: 0.9rem; /* Smaller font size for the button */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recurrence-scheduler {
+    padding: 10px;
+    max-width: 100%; /* Full width for mobile */
+  }
+
+  .header {
+    font-size: 1.2rem; /* Further reduced font size */
+  }
+
+  .input-field, .submit-button {
+    font-size: 0.85rem; /* Slightly smaller text */
+    padding: 8px;
+  }
+
+  .submit-button {
+    padding: 8px; /* Reduced padding for mobile */
+  }
+}
+
+/*Toggle css*/
+
+/* Toggle.css */
+
+/* Container for the navigation bar */
+.nav-bar {
+  background-color: #333; /* Dark background */
+  padding: 10px; /* Padding around the navbar */
+  display: flex;
+  justify-content: center; /* Center the buttons */
+}
+
+/* Elements inside the navbar */
+.element {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 550px;
+}
+
+/* Button styling */
+.toggle-button {
+  background-color: transparent; /* Transparent background */
+  color: #fff; /* White text */
+  border: 2px solid #f39c12; /* Orange border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside buttons */
+  margin: 0 5px; /* Margin between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Active button styling */
+.toggle-button.active {
+  background-color: #f39c12; /* Active background color */
+  color: #fff; /* White text on active */
+}
+
+/* Hover effect */
+.toggle-button:hover {
+  background-color: rgba(243, 156, 18, 0.8); /* Slightly darker on hover */
+}
+
+@media (max-width: 480px){
+  .element{
+    max-width: 100%;
+  }
+}
